@@ -27,3 +27,63 @@ if __name__ == "__main__":
 
     a,b,c=98,3.1416,"Bienvenido"
     print(a,b,c)
+
+    nuevoTema("Enteros")
+    w = 105
+    x = 59539865396
+    y = -345
+    z = 0b101010101
+    h = 0xffa
+
+    print(w, type(w))
+    print(x, type(x))
+    print(y, type(y))
+    print(z, type(z))
+    print(h, type(h))
+
+    nuevoTema("Flotantes")
+    x = 1297.5
+    y = 0.4532627
+    print(x,type(x))
+    print(y,type(y))
+
+    nuevoTema("Numeros Complejos")
+    x = -46j
+    y = 12 + 45j
+    z = 2j
+
+    print(x, type(x))
+    print(y, type(y))
+    print(z, type(z))
+
+    nuevoTema("Listas")
+    a = [10, 20.5, "Python List"]
+    print(a, type(a))
+    a = ["lista2", 45, 16.3j]
+    print(a)
+    print(a[2])
+
+    nuevoTema("Tuplas")
+    t = (25, "tupla", 5.6) #Las Tuplas no se pueden modificar, una vez asignado, se quedan asi.
+    print(t)
+    print(t[1])
+
+    nuevoTema("Conjuntos")
+    c = {50,20,10,4,8,50}
+    print(c)
+
+    nuevoTema("Diccionario")
+    d = {1:"Valor1","2":45}
+    print(d,type(d))
+
+    nuevoTema("Cadenas")
+    cadena1 = "Cadena entre comillas dobles"
+    cadena2 = 'Cadena entre comillas sencillas'
+    cadena3 = '''Cadena
+    de
+    varias
+    lineas
+    '''
+    print(cadena1)
+    print(cadena2)
+    print(cadena3)
